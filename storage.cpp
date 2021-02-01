@@ -45,4 +45,10 @@ void foo(int i){
 
 }
 
+int dynamicMain(){
+    int *pointer (new int);
+    *pointer = 3;
+    delete pointer;
+}
+
 
