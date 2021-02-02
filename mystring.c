@@ -8,4 +8,10 @@ int strcmp(const char *l, const char *r){
     while(){
         
     }
+
+    if (l_counter < )
+}
+
+int main (){
+    char i =
 }

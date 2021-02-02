@@ -8,9 +8,9 @@ void foo(int i);
 
 int main() {
 
-    std::cout << "1st call: " << counter() << std::endl;
-    std::cout << "2nd call: " << counter() << std::endl;
-    std::cout << "Get Month: " << getMonth(2) << std::endl;
+    //std::cout << "1st call: " << counter() << std::endl;
+    //std::cout << "2nd call: " << counter() << std::endl;
+    //std::cout << "Get Month: " << getMonth(2) << std::endl;
     std::cout << "Get Month: " << foo(1) << std::endl;
 
 }
@@ -49,6 +49,15 @@ int dynamicMain(){
     int *pointer (new int);
     *pointer = 3;
     delete pointer;
+
 }
+
+int heapMain(){
+    char *ptr1{new char};
+    auto *ptr2 = new char{'c'};
+    auto *aptr1 = new char [300];
+}
+
+
 
 
